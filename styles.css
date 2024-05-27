@@ -1,0 +1,117 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000; /* Background color black */
+    color: #fff; /* Text color white */
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    color: #49638c;
+    padding: 10px;
+    text-align: center; /* Center align text if there's any */
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.header-image {
+    width: 100%;
+    height: 100px; /* Set desired height */
+    overflow: hidden; /* Hide overflow */
+}
+
+.header-image img {
+    width: 100%; /* Stretch the image to full width */
+    height: 100%; /* Set height to match container */
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+    object-position: top; /* Adjust position to show the top of the image */
+    display: block; /* Ensure the image is a block element */
+    margin: 0 auto; /* Center the image */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 5px; /* Corrected padding */
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f8da5b;
+    padding: 5px 10px;
+    background: #6643b5; /* Background color of navigation buttons */
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #e8491d;
+}
+
+/* Separator styles */
+.nav-separator {
+    display: inline-block;
+    width: 30px; /* Width of the separator */
+    height: 20px; /* Height of the separator */
+    background: #fff; /* Background color of the separator */
+    margin: 0 10px; /* Margin to create space around the separator */
+    border-radius: 5px; /* Optional: add border radius for rounded corners */
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+    padding: 20px; /* Add padding to create space around the content */
+    background: #323643; /* Background color of sections */
+    border-radius: 10px; /* Add border radius to create rounded corners */
+    text-align: center; /* Center align the text */
+    max-width: 800px; /* Set maximum width for the section */
+    margin: 0 auto; /* Center the section horizontally */
+}
+
+section h2 {
+    color: #f2ffdf; /* Section title color */
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    max-width: 300px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222831;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* CSS styles for the logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo img {
+    width: 100px; /* Adjust the width of the logo as needed */
+    height: auto;
+}
